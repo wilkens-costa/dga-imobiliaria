@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="8" fill="#102e32"/>
-  <path d="M16 17h16c10 0 17 5 17 15s-7 15-17 15H16V17Zm10 8v14h6c5 0 8-2 8-7s-3-7-8-7h-6Z" fill="#d4b181"/>
-  <path d="M16 51h32" stroke="#f4f0e8" stroke-width="2"/>
+  <rect width="64" height="64" rx="7" fill="#0d3034"/>
+  <text x="32" y="35" text-anchor="middle" fill="#f4f0e8" font-family="Georgia, serif" font-size="18" letter-spacing="2">DGA</text>
+  <path d="M18 43h28" stroke="#d3ae7d" stroke-width="2"/>
 </svg>

@@ -6,7 +6,7 @@ import { properties } from "@/data/properties";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "Imóveis para o seu próximo capítulo",
+  title: "Boas escolhas imobiliárias em Fortaleza",
   description:
     "Atendimento imobiliário em Fortaleza para quem busca decisões claras na compra, venda e avaliação de imóveis.",
   path: "/",
@@ -52,19 +52,18 @@ export default function Home() {
         <div className="hero-overlay" aria-hidden="true" />
         <div className="site-container hero-content">
           <p className="eyebrow eyebrow-light">Imobiliária em Fortaleza</p>
-          <h1>Imóveis que combinam com o seu próximo capítulo.</h1>
+          <h1>Seu próximo endereço começa com uma boa escolha.</h1>
           <p className="hero-copy">
-            Escolhas imobiliárias merecem clareza, repertório local e atenção
-            aos detalhes. A DGA aproxima você de decisões mais seguras em
-            Fortaleza.
+            Atendimento imobiliário em Fortaleza com clareza para comprar,
+            vender e avaliar imóveis.
           </p>
           <div className="hero-actions">
             <Link href="/imoveis" className="button button-gold">
-              Encontrar um imóvel
+              Encontrar imóvel
               <ArrowUpRight />
             </Link>
             <Link href="/sobre" className="text-link text-link-light">
-              Conheça a DGA
+              Conhecer a DGA
               <span aria-hidden="true">→</span>
             </Link>
           </div>
@@ -105,10 +104,10 @@ export default function Home() {
               <div className="empty-number" aria-hidden="true">01</div>
               <div>
                 <p className="eyebrow">Curadoria em preparação</p>
-                <h3>Novos imóveis serão apresentados em breve.</h3>
+                <h3>Novas oportunidades serão publicadas em breve.</h3>
                 <p>
-                  Estamos preparando uma seleção para que cada anúncio chegue
-                  com informações completas e relevantes.
+                  O catálogo está sendo preparado para receber anúncios com
+                  informações claras e completas.
                 </p>
               </div>
               <Link href="/contato" className="button button-outline">
@@ -124,11 +123,11 @@ export default function Home() {
           <div className="section-heading-row section-heading-inverse">
             <div className="section-intro">
               <p className="eyebrow eyebrow-light">Como podemos ajudar</p>
-              <h2 id="services-title">Cuidado em cada decisão imobiliária.</h2>
+            <h2 id="services-title">Como a DGA pode ajudar.</h2>
             </div>
             <p className="section-lead">
-              Do primeiro entendimento à condução do processo, o atendimento
-              parte da escuta e avança com objetividade.
+              Três frentes de atendimento para apoiar cada decisão com
+              proximidade e objetividade.
             </p>
           </div>
 
@@ -154,17 +153,17 @@ export default function Home() {
       <section className="section about-feature" aria-labelledby="about-title">
         <div className="site-container about-grid">
           <div className="about-mark" aria-hidden="true">
-            <span>D</span><span>G</span><span>A</span>
+            <span className="about-monogram">DGA</span>
+            <span className="about-since">Cadastro empresarial desde 2011</span>
           </div>
           <div className="about-copy">
             <p className="eyebrow">Sobre a DGA</p>
             <h2 id="about-title">
-              Relações imobiliárias conduzidas com presença e clareza.
+              Proximidade para entender. Clareza para decidir.
             </h2>
             <p>
-              A DGA Imobiliária atua em Fortaleza com uma proposta simples:
-              tornar as decisões sobre imóveis mais compreensíveis, próximas e
-              bem acompanhadas.
+              A DGA Imobiliária atua em Fortaleza para tornar cada decisão mais
+              compreensível, com atendimento próximo e condução cuidadosa.
             </p>
             <Link href="/sobre" className="text-link">
               Nossa proposta <span aria-hidden="true">→</span>
@@ -173,11 +172,23 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="benefit-strip" aria-label="Benefícios do atendimento">
-        <div className="site-container benefit-grid">
-          <p><span>01</span> Escuta antes de recomendar</p>
-          <p><span>02</span> Comunicação clara no processo</p>
-          <p><span>03</span> Conhecimento do contexto local</p>
+      <section className="section benefit-section" aria-labelledby="benefits-title">
+        <div className="site-container">
+          <div className="section-heading-row">
+            <div className="section-intro">
+              <p className="eyebrow">Diferenciais de atendimento</p>
+              <h2 id="benefits-title">Uma condução atenta, do início à decisão.</h2>
+            </div>
+            <p className="section-copy">
+              Relações imobiliárias pedem escuta, contexto e informações que façam sentido para cada pessoa.
+            </p>
+          </div>
+          <div className="benefit-grid">
+            <article><span>01</span><h3>Atendimento próximo</h3><p>Uma conversa aberta para compreender prioridades e contexto.</p></article>
+            <article><span>02</span><h3>Informações claras</h3><p>Comunicação direta para acompanhar cada etapa com segurança.</p></article>
+            <article><span>03</span><h3>Condução cuidadosa</h3><p>Atenção aos detalhes e ao ritmo de cada processo imobiliário.</p></article>
+            <article><span>04</span><h3>Decisões informadas</h3><p>Orientação para avaliar possibilidades com mais consciência.</p></article>
+          </div>
         </div>
       </section>
 
@@ -185,7 +196,7 @@ export default function Home() {
         <div className="site-container contact-cta-grid">
           <div>
             <p className="eyebrow eyebrow-light">Vamos conversar</p>
-            <h2>Seu próximo movimento começa com uma boa conversa.</h2>
+            <h2>Vamos entender o que faz sentido para você.</h2>
           </div>
           <Link href="/contato" className="button button-gold">
             Entrar em contato

@@ -19,16 +19,15 @@ export default function ServicesPage() {
     <>
       <PageHero
         eyebrow="Serviços"
-        title="Apoio imobiliário com atenção ao seu contexto."
-        description="Três frentes de atendimento para conduzir decisões imobiliárias com objetividade e cuidado."
+        title="Orientação para cada decisão imobiliária."
+        description="Atendimento próximo para compreender o contexto, organizar informações e conduzir os próximos passos."
       />
       <section className="content-section">
-        <div className="site-container fact-grid">
+        <div className="site-container service-list">
           {services.map((service) => (
             <article className="fact-card" key={service.number}>
-              <span>{service.number}</span>
-              <h3>{service.title}</h3>
-              <p>{service.text}</p>
+              <span className="card-index">{service.number}</span>
+              <div><h3>{service.title}</h3><p>{service.text}</p></div>
             </article>
           ))}
         </div>

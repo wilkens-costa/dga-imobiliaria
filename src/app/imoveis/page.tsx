@@ -17,8 +17,8 @@ export default function PropertiesPage() {
     <>
       <PageHero
         eyebrow="Catálogo"
-        title="Encontre um imóvel para o seu momento."
-        description="O catálogo está preparado para receber imóveis com informações completas, filtros claros e uma apresentação cuidadosa."
+        title="Um catálogo pensado para escolhas claras."
+        description="Os imóveis serão publicados aqui com informações completas, filtros objetivos e apresentação cuidadosa."
       />
       <section className="content-section">
         <div className="site-container">
@@ -29,7 +29,7 @@ export default function PropertiesPage() {
             <div className="catalog-empty">
               <div className="catalog-empty-inner">
                 <p className="eyebrow">Catálogo em atualização</p>
-                <h2>Novos imóveis serão publicados em breve.</h2>
+                <h2>Novas oportunidades serão publicadas em breve.</h2>
                 <p>
                   Ainda não há imóveis cadastrados. Se você procura algo
                   específico, conte à DGA o que precisa.

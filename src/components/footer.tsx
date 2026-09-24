@@ -9,7 +9,7 @@ export function Footer() {
         <div className="footer-grid">
           <div className="footer-intro">
             <Logo />
-            <p>Atendimento imobiliário em Fortaleza com clareza, proximidade e atenção a cada decisão.</p>
+            <p>Clareza e atenção para decisões imobiliárias em Fortaleza.</p>
           </div>
           <div className="footer-column">
             <h2>Navegação</h2>
@@ -22,19 +22,26 @@ export function Footer() {
             </nav>
           </div>
           <div className="footer-column">
+            <h2>Institucional</h2>
+            <div className="footer-legal">
+              <span>{siteConfig.legalName}</span>
+              <span>CNPJ {siteConfig.cnpj}</span>
+              <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+            </div>
+          </div>
+          <div className="footer-column">
             <h2>Endereço cadastral</h2>
             <address>
               <span>{siteConfig.address.street}</span>
               <span>{siteConfig.address.neighborhood}</span>
               <span>{siteConfig.city} — {siteConfig.state}</span>
               <span>CEP {siteConfig.cep}</span>
-              <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
             </address>
           </div>
         </div>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} {siteConfig.brandName}</span>
-          <span>CNPJ {siteConfig.cnpj}</span>
+          <span>Fortaleza, Ceará</span>
         </div>
       </div>
     </footer>

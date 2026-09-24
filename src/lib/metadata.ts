@@ -19,11 +19,20 @@ export function createPageMetadata({ title, description, path }: PageMetadataInp
       url: path,
       title,
       description,
+      images: [
+        {
+          url: "/og.png",
+          width: 1200,
+          height: 630,
+          alt: "DGA Imobiliária — Clareza para boas escolhas imobiliárias.",
+        },
+      ],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title,
       description,
+      images: ["/og.png"],
     },
   };
 }

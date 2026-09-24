@@ -32,12 +32,21 @@ export const metadata: Metadata = {
     title: `${siteConfig.brandName} | Imóveis em Fortaleza`,
     description:
       "Atendimento imobiliário em Fortaleza para compra, venda e avaliação de imóveis.",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "DGA Imobiliária — Clareza para boas escolhas imobiliárias.",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: `${siteConfig.brandName} | Imóveis em Fortaleza`,
     description:
       "Atendimento imobiliário em Fortaleza para compra, venda e avaliação de imóveis.",
+    images: ["/og.png"],
   },
   icons: { icon: "/icon.svg" },
 };
