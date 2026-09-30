@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.brandName }],
   creator: siteConfig.brandName,
   publisher: siteConfig.brandName,
+  other: {
+    "facebook-domain-verification": "r5no7jo4ofoa9prs1hcxgu19fowyxi",
+  },
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
